@@ -1,0 +1,145 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  max-width: 600px;
+  width: 100%;
+}
+
+.form label {
+  font-weight: 600;
+  margin-top: 12px;
+}
+
+.form input,
+.form textarea {
+  padding: 10px 12px;
+  border-radius: 8px;
+  border: 1px solid #1B1B1B;
+  font-size: 1rem;
+  font-family: inherit;
+}
+
+.dropzone {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 120px;
+  padding: 12px;
+  border: 2px dashed #1B1B1B;
+  border-radius: 8px;
+  font-weight: normal;
+  text-align: center;
+  overflow: hidden;
+}
+
+.browseBtn {
+  background: none;
+  border: none;
+  color: inherit;
+  font-size: 1rem;
+  font-family: inherit;
+  cursor: pointer;
+  padding: 12px;
+}
+
+.fileInput {
+  display: none;
+}
+
+.previewWrap {
+  position: relative;
+  max-width: 100%;
+}
+
+.preview {
+  display: block;
+  max-height: 160px;
+  max-width: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.changeOverlay {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  padding: 6px;
+  background: rgba(27, 27, 27, 0.7);
+  color: #ffffff;
+  font-size: 0.85rem;
+  font-weight: 600;
+  font-family: inherit;
+  border: none;
+  border-radius: 0 0 8px 8px;
+  cursor: pointer;
+}
+
+.fieldset {
+  border: 1px solid #1B1B1B;
+  border-radius: 8px;
+  padding: 16px;
+  margin-top: 16px;
+}
+
+.row {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 8px;
+  align-items: center;
+}
+
+.row input {
+  flex: 1;
+}
+
+.step {
+  font-weight: 600;
+}
+
+.addBtn {
+  background: transparent;
+  border: 1px solid #6BA539;
+  color: #6BA539;
+  padding: 8px 14px;
+  border-radius: 999px;
+  cursor: pointer;
+}
+
+.removeBtn {
+  background: transparent;
+  border: 1px solid #C62828;
+  color: #C62828;
+  padding: 6px 10px;
+  border-radius: 999px;
+  cursor: pointer;
+}
+
+.removeBtn:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+.submitBtn {
+  margin-top: 24px;
+  padding: 14px;
+  background: #6BA539;
+  color: #ffffff;
+  border: none;
+  border-radius: 999px;
+  font-size: 1rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.submitBtn:hover {
+  background: #57852F;
+}
+
+@media (max-width: 480px) {
+  .row {
+    flex-wrap: wrap;
+  }
+}

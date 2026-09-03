@@ -1,0 +1,88 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 260px;
+  border-radius: 12px;
+  overflow: hidden;
+  background: #FBEABF;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12);
+  transition: transform 0.15s;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+}
+
+.image {
+  height: 160px;
+  background-size: cover;
+  background-position: center;
+  background-color: #B0B0B0;
+}
+
+.body {
+  padding: 12px;
+}
+
+.title {
+  margin: 0;
+  font-size: 1.1rem;
+}
+
+.title a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.date {
+  font-style: italic;
+  color: #1B1B1B;
+  margin: 4px 0 8px;
+  font-size: 0.85rem;
+}
+
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-bottom: 8px;
+}
+
+.tag {
+  background: #f0c048;
+  color: #866208;
+  font-size: 0.75rem;
+  padding: 3px 10px;
+  border-radius: 999px;
+}
+
+.viewLink {
+  color: #6BA539;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.ownerActions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 12px;
+}
+
+.iconBtn {
+  background: none;
+  border: none;
+  color: #6BA539;
+  padding: 0;
+  cursor: pointer;
+}
+
+.iconBtn svg {
+  width: 20px;
+  height: 20px;
+}
+
+@media (max-width: 480px) {
+  .card {
+    width: 100%;
+  }
+}

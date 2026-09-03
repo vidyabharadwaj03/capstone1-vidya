@@ -1,0 +1,35 @@
+.form {
+  display: flex;
+  gap: 8px;
+  max-width: 500px;
+  width: 100%;
+}
+
+.input {
+  flex: 1;
+  padding: 12px 16px;
+  border-radius: 8px;
+  border: 1px solid #1B1B1B;
+  background: #ffffff;
+  font-size: 1rem;
+}
+
+.button {
+  padding: 12px 20px;
+  border-radius: 999px;
+  border: none;
+  background: #6BA539;
+  color: #ffffff;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.button:hover {
+  background: #57852F;
+}
+
+@media (max-width: 480px) {
+  .form {
+    flex-direction: column;
+  }
+}

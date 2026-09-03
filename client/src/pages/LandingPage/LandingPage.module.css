@@ -1,0 +1,65 @@
+.landing {
+  min-height: calc(100vh - 69px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 24px;
+  gap: 12px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  font-size: 3rem;
+  margin: 0;
+}
+
+.logoIcon {
+  width: 1.15em;
+  height: 1.15em;
+}
+
+.tagline {
+  font-size: 1.2rem;
+  color: #1B1B1B;
+  margin-bottom: 24px;
+}
+
+.actions {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.primaryBtn {
+  background: #6BA539;
+  color: #ffffff;
+  padding: 14px 28px;
+  border-radius: 999px;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.primaryBtn:hover {
+  background: #57852F;
+}
+
+.secondaryBtn {
+  background: transparent;
+  color: #6BA539;
+  border: 1px solid #6BA539;
+  padding: 14px 28px;
+  border-radius: 999px;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.secondaryBtn:hover {
+  background: #6BA539;
+  color: #ffffff;
+}
