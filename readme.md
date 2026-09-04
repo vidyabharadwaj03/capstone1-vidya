@@ -4,7 +4,7 @@ Live deployment: _in progress_
 
 ## Demo
 
-[Watch the walkthrough](media/capstone-demo-walkthrough.mp4)
+[Watch the walkthrough](media/capstone-demo-walkthrough.mov)
 
 ## What's done
 
