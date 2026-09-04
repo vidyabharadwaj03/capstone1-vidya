@@ -2,6 +2,10 @@
 
 Live deployment: _in progress_
 
+## Demo
+
+[Watch the walkthrough](media/capstone-demo-walkthrough.mov)
+
 ## What's done
 
 - Backend supports full CRUD for recipes, connected to the frontend
